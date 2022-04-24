@@ -1,13 +1,13 @@
-h=float(input("Height [m]: "))
-w=int(input("Weight [kg]: "))
+w = int(input("Weight [kg]: "))
+h = float(input("Height [m]: "))
 
-bmi=w/(h*h)
+bmi = w / (h * h)
 
-if bmi<18.5:
+if bmi < 18.5:
     print("Underweight")
-elif bmi>=18.5 and bmi<25:
+elif bmi >= 18.5 and bmi < 25:
     print("Normal")
-elif bmi>=25 and bmi<30:
+elif bmi >= 25 and bmi < 30:
     print("Overweight")
 else:
-    print("Obese")
+    print("Obesity")
